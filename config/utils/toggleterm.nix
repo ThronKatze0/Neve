@@ -19,13 +19,13 @@
       persist_mode = true;
       insert_mappings = true;
       close_on_exit = true;
-      shell = "zsh";
-      direction = "horizontal"; # 'vertical' | 'horizontal' | 'window' | 'float'
+      shell = "fish";
+      direction = "float"; # 'vertical' | 'horizontal' | 'window' | 'float'
       auto_scroll = true;
       float_opts = {
         border = "single"; # 'single' | 'double' | 'shadow' | 'curved' | ... other options supported by win open
-        width = 80;
-        height = 20;
+        width = 160;
+        height = 40;
         winblend = 0;
       };
       winbar = {
